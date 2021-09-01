@@ -55,11 +55,17 @@ a {
 .followerContainer {
   width: 100%;
   display: flex;
+  border: black 1px solid;
 }
 .FollowerCard {
   display: flex;
+  width: 450px;
   border: black 1px solid;
+  border-radius: 30px;
+  margin: 2%;
 }
 .FollowerCard img {
   height: 25vh;
+}
+.minicontainer {
 }

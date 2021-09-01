@@ -5,7 +5,7 @@ import FollowerList from "./components/FollowerList";
 import UserCard from "./components/UserCard";
 class App extends React.Component {
   state = {
-    startingUser: "jonahjtr",
+    startingUser: "MMostella",
     user: {},
 
     followers: [],
@@ -39,7 +39,9 @@ class App extends React.Component {
           <UserCard user={this.state.user} />
         </div>
         <div className="followerContainer">
-          <FollowerList followers={this.state.followers} />
+          <div className="minicontainer">
+            <FollowerList followers={this.state.followers} />
+          </div>
         </div>
       </div>
     );
