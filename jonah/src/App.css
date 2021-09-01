@@ -1,0 +1,18 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.userCard {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  border: black 1px solid;
+  border-radius: 30px;
+  padding: 0.5% 1%;
+}
+.userImages img {
+  height: 40vh;
+  margin: 0 10% 0 0;
+}

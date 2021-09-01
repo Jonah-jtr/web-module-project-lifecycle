@@ -7,7 +7,7 @@ class UserCard extends React.Component {
         <div className="userImages">
           <img src={this.props.user.avatar_url} alt="user avatar" />
         </div>
-        {this.props.user.login}
+        <h1> User: {this.props.user.login}</h1>
       </div>
     );
   }

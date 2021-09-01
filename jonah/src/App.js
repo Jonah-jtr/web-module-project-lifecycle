@@ -7,6 +7,7 @@ class App extends React.Component {
   state = {
     startingUser: "jonahjtr",
     user: {},
+
     followers: [],
   };
   componentDidMount() {
@@ -33,7 +34,7 @@ class App extends React.Component {
     console.log("----user login--", this.state.user.login);
 
     return (
-      <div>
+      <div className="app">
         <UserCard user={this.state.user} />
         <FollowerList followers={this.state.followers} />
       </div>
