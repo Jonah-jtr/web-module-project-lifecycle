@@ -3,8 +3,10 @@ import React from "react";
 class UserCard extends React.Component {
   render() {
     return (
-      <div>
-        <img src={this.props.user.avatar_url} alt="user avatar" />
+      <div className="userCard">
+        <div className="userImages">
+          <img src={this.props.user.avatar_url} alt="user avatar" />
+        </div>
         {this.props.user.login}
       </div>
     );
