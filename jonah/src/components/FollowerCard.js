@@ -3,9 +3,9 @@ import React from "react";
 class FollowerCard extends React.Component {
   render() {
     return (
-      <div>
+      <div className="FollowerCard">
         <img src={this.props.follower.avatar_url} alt="user avatar" />
-        {this.props.follower.login}
+        <h1> {this.props.follower.login}</h1>
       </div>
     );
   }

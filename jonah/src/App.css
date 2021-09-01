@@ -2,17 +2,64 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   width: 100%;
+}
+
+.userContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 10px;
+}
+a {
+  text-decoration: none;
+  color: black;
 }
 .userCard {
   display: flex;
   justify-content: center;
   width: 40%;
+  max-width: 700px;
   border: black 1px solid;
   border-radius: 30px;
   padding: 0.5% 1%;
 }
 .userImages img {
+  display: flex;
   height: 40vh;
-  margin: 0 10% 0 0;
+  margin-right: 15px;
+}
+.userInfo {
+  display: Flex;
+  flex-direction: column;
+  align-items: center;
+  border: black solid 1px;
+}
+.userInfo h1,
+h2,
+h4,
+a {
+  margin: 10px;
+}
+.userInfo a {
+  font-size: 2rem;
+  background-color: black;
+  color: white;
+  padding: 0 10px 3px 10px;
+  border-radius: 10px;
+}
+/* --------------------------follower cards-------------------------------------------- */
+
+.followerContainer {
+  width: 100%;
+  display: flex;
+}
+.FollowerCard {
+  display: flex;
+  border: black 1px solid;
+}
+.FollowerCard img {
+  height: 25vh;
 }

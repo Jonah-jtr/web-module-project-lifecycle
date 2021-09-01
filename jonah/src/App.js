@@ -35,8 +35,12 @@ class App extends React.Component {
 
     return (
       <div className="app">
-        <UserCard user={this.state.user} />
-        <FollowerList followers={this.state.followers} />
+        <div className="userContainer">
+          <UserCard user={this.state.user} />
+        </div>
+        <div className="followerContainer">
+          <FollowerList followers={this.state.followers} />
+        </div>
       </div>
     );
   }
